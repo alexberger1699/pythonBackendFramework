@@ -1,9 +1,4 @@
-import pytest
 
-
-@pytest.fixture()
-def setup():
-    print("Open URL")
 
 
 def test_sending_mail(setup):
